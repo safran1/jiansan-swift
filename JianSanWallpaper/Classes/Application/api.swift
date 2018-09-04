@@ -9,7 +9,7 @@
 import Foundation
 
 /// api根路径 http://jiansan.6ag.cn
-let BASE_URL = "http://jiansan.6ag.cn"
+let BASE_URL = "http://kalimatkhalidah.com"
 
 /// 提交
 let SUBMIT_FEEDBACK = "\(BASE_URL)/api/feedback"
@@ -30,7 +30,9 @@ let CHECK_SAVE_STATUS = "\(BASE_URL)/api/status"
 func GET_WALLPAPERS(_ category_id: Int) -> String {
     return "\(BASE_URL)/api/wallpapers/\(category_id)";
 }
-
+func GET_WALLPAPERS1(_ category_id: Int) -> String {
+    return "\(BASE_URL)/api/wallpapers1/\(category_id)";
+}
 /**
  根据壁纸id获取壁纸信息
  
